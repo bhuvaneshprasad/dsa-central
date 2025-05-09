@@ -1,0 +1,16 @@
+[project]
+name = "dsa_central"
+version = "0.1.0"
+description = "Python implementations of data structures and algorithms"
+authors = [{ name = "Bhuvanesh Prasad", email = "bhuvaneshprasad10@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+
+[tool.uv.dev-dependencies]
+pytest = "*"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
